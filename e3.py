@@ -20,10 +20,14 @@ try:
 
     n5 = int(input("Inserta el 5 número y comprobaremos si está en los dos rangos a la vez: "))
 
-    if n5 >= n1 and n5 <= n2 and n5 >= n3 and n5 <= n4:
-        print("TRUE: Está en los 2 rangos a la vez")
-    else:
-        print("FALSE: No está en los 2 rangos a la vez")
+    print(n5 >= n1 and n5 <= n2 and n5 >= n3 and n5 <= n4)
+
+    #Otra manera con 2 salidas que dan más información
+
+    #if n5 >= n1 and n5 <= n2 and n5 >= n3 and n5 <= n4:
+    #    print("TRUE: Está en los 2 rangos a la vez")
+    #else:
+    #    print("FALSE: No está en los 2 rangos a la vez")
 
 except:
     print("ERROR: escribe un número.")
