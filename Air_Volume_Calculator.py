@@ -1,6 +1,0 @@
-
-
-
-longitud=
-Ancho=
-Altura=
