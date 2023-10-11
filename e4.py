@@ -11,3 +11,14 @@ Escriu un programa que llegeixi l'edat de l'usuari i mostri si té edat per treb
 Consultar: Python If Statement. La sentència if es veurà a més detalls en el proper tema.
 
 '''
+
+try:
+    edad = int(input("Inserta tu edad y te digo si puedes trabajar: "))
+    if edad >= 16 and edad <= 65:
+        print("Puedes currar.")
+    else:
+        print("NO puedes trabajar.")
+
+
+except:
+    print("ERROR: Inserta un número.")
