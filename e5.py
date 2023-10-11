@@ -29,14 +29,7 @@ try:
     palabra = palabra.replace("u", "5")
     palabra = palabra.replace("U", "5")
 
-
-
-
     print(palabra)
-
-
-
-
 
 except:
     print("ERROR: valor incorrecto.")
