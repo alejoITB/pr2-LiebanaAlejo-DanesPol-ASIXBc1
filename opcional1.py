@@ -12,3 +12,7 @@ print assert + '2'
 
 Codi correcte:
 '''
+
+#assert es una palabra reservada, la cambiamos por otra
+assertx = 'Hola'
+print(assertx + "2")
