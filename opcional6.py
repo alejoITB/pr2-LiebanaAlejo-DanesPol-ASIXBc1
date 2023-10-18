@@ -9,3 +9,4 @@ Com farieu un print del literal  ? “I a poder ser de color verd”
 
 '''
 
+print(f"? \"I a poder ser de color verd\"")
